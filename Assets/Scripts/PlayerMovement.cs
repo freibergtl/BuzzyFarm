@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     Vector3 m_Movement;
     Quaternion m_Rotation = Quaternion.identity;
 
+    public Transform respawnPoint;
+
     Animator m_Animator;
     Rigidbody m_Rigidbody;
 
@@ -55,6 +57,10 @@ public class PlayerMovement : MonoBehaviour
         m_Rigidbody.MoveRotation(m_Rotation);
        
     }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     void Respawn()
 	{
 		m_Rigidbody.velocity = Vector3.zero;
