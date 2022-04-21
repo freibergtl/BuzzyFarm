@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
     void OnAnimatorMove()
     {
-        m_Rigidbody.MovePosition(m_Rigidbody.position + m_Movement * 0.5f);
+        m_Rigidbody.MovePosition(m_Rigidbody.position + m_Movement * 0.25f);
         m_Rigidbody.MoveRotation(m_Rotation);
        
     }
